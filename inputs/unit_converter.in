@@ -1,0 +1,11 @@
+// The program input for unit_converter/src/main.leo
+[main]
+from_unit: Unit = Unit {
+    unit_type: 1u8,
+    identifier: 1u8
+};
+to_unit: Unit = Unit {
+    unit_type: 1u8,
+    identifier: 2u8
+};
+amount: i128 = 100i128;
